@@ -1,0 +1,62 @@
+.content{
+  background-color: #F6F6F6;
+}
+.logo{
+  display: flex;
+  align-content: center;
+  gap:15px;
+
+}
+.signin_content{
+ margin-top: 30px;
+
+  
+}
+h3{margin-top: 20px;
+  padding: 10px;
+
+}
+
+.form-class{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.inputbox{
+  width: 80%;
+  position: relative;
+
+  padding-left:29px;
+}
+.icons{
+  position: absolute;
+  left:55px;
+  color:black;
+  top:262px;
+}
+
+.icons2{
+  position: absolute;
+  left:55px;
+  color:black;
+  top:315px;
+}
+.signinbtn{
+  width: 60%;
+  margin-left: 40px;
+}
+@media (max-width:765px) {
+  .icons{
+    position: absolute;
+    left:55px;
+    color:black;
+    top:242px;
+  }
+  
+  .icons2{
+    position: absolute;
+    left:55px;
+    color:black;
+    top:292px;
+  }
+}
